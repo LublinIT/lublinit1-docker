@@ -13,3 +13,5 @@ COPY . /src/app
 
 # Build and optimize react app
 RUN npm run build
+
+EXPOSE 3000
